@@ -53,5 +53,7 @@ Creating a interactive application to take pictures of people and put them into 
 <img src="https://github.com/artintelclass/final-njw275/blob/master/images/My%20Final%20Outputs/print_final_res.jpg" width="290">
 </p>
 
+## Set Up
+
 
 
