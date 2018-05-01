@@ -56,13 +56,14 @@ Creating a interactive application to take pictures of people and put them into 
 ## Set Up
 
 Use googlecollab.py to make:
-*0_c_mask.jpg
-*0_c_mask_dilated.jpg
-*0_naive.jpg
+* 0_c_mask.jpg
+* 0_c_mask_dilated.jpg
+* 0_naive.jpg
 
 From there, I ran deep-painterly-harmonization's [gen_all.py](https://github.com/luanfujun/deep-painterly-harmonization/blob/master/gen_all.py) and deep-painterly-harmonization's [filt_cnn_artifact.m](https://github.com/luanfujun/deep-painterly-harmonization/blob/master/filt_cnn_artifact.m) to create the final output image. 
 
 ## Issues I Ran Into
 
-*If you run out of memory on the GPU, look to change gen_all.py's image_size and make your images the same size ratio
-
+* If you run out of memory on the GPU, look to change gen_all.py's image_size and make your images the same size ratio
+* Though deep-painterly-harmonization works with Octave, I could not get it to run with it. Instead, it is a pretty simple set up with Matlab
+* The problems with my outputs compared to deep-painterly-harmonization's outputs is the masking. Their masks are very detailed while running with a mask created from DeepLab isn't as thorough. 
