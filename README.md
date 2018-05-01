@@ -5,10 +5,10 @@ Using deep-painterly-harmonization [Github](https://github.com/luanfujun/deep-pa
 
 ### The Subjugated Reader
 #### René Magritte
-![The Subjugated Reader](https://github.com/artintelclass/final-njw275/blob/master/images/Book%20Images/book_target.jpg)
-![Reader Mask](https://github.com/artintelclass/final-njw275/blob/master/images/Book%20Images/0_c_mask_dilated%2010.37.00%20PM.jpg)
-![Reader Naive](https://github.com/artintelclass/final-njw275/blob/master/images/Book%20Images/0_naive%2010.37.00%20PM.jpg)
-![Reader Final Output](https://github.com/artintelclass/final-njw275/blob/master/images/My%20Final%20Outputs/NickBook3.jpg)
+![The Subjugated Reader](https://github.com/artintelclass/final-njw275/blob/master/images/Book%20Images/book_target.jpg =100x20)
+![Reader Mask](https://github.com/artintelclass/final-njw275/blob/master/images/Book%20Images/0_c_mask_dilated%2010.37.00%20PM.jpg =100x20)
+![Reader Naive](https://github.com/artintelclass/final-njw275/blob/master/images/Book%20Images/0_naive%2010.37.00%20PM.jpg =100x20)
+![Reader Final Output](https://github.com/artintelclass/final-njw275/blob/master/images/My%20Final%20Outputs/NickBook3.jpg =100x20)
 
 ### Vincent Van Gogh’s Self Portrait, 1887
 #### Vincent Van Gogh
