@@ -1,6 +1,6 @@
 # Final (njw275)
 
-Creating a interactive application to take pictures of people and put them into artwork using [DeepLab: Deep Labelling for Semantic Image Segmentation](https://github.com/tensorflow/models/tree/master/research/deeplab) with [deep-painterly-harmonization](https://github.com/luanfujun/deep-painterly-harmonization). These paintings are currently displayed at the Louvre Abu Dhabi.
+Creating an interactive application to take pictures of people and put them into artwork using [DeepLab: Deep Labelling for Semantic Image Segmentation](https://github.com/tensorflow/models/tree/master/research/deeplab) with [deep-painterly-harmonization](https://github.com/luanfujun/deep-painterly-harmonization). The target paintings are currently displayed at the Louvre Abu Dhabi.
 
 
 ### The Subjugated Reader
@@ -55,7 +55,7 @@ Creating a interactive application to take pictures of people and put them into 
 
 ## Set Up
 
-Use googlecollab.py to make:
+Using googlecollab.py to make:
 * 0_c_mask.jpg
 * 0_c_mask_dilated.jpg
 * 0_naive.jpg
@@ -64,6 +64,6 @@ From there, I ran deep-painterly-harmonization's [gen_all.py](https://github.com
 
 ## Issues I Ran Into
 
-* If you run out of memory on the GPU, look to change gen_all.py's image_size and make your images the same size ratio
-* Though deep-painterly-harmonization works with Octave, I could not get it to run with it. Instead, it is a pretty simple set up with Matlab
-* The problems with my outputs compared to deep-painterly-harmonization's outputs is the masking. Their masks are very detailed while running with a mask created from DeepLab isn't as thorough. 
+* If you run out of memory on the GPU, look to change gen_all.py's image_size and make your input images the same size ratio
+* Though deep-painterly-harmonization works with Octave, I could not get the files to run with it. Instead, it is a pretty simple set up with Matlab
+* The problem with my outputs compared to deep-painterly-harmonization's outputs is the masking. Their masks are very detailed while running with a mask created from DeepLab isn't as thorough. 
