@@ -2,7 +2,7 @@ import pysftp
 import os
 
 srv = pysftp.Connection(host="10.224.18.247", username="nyuad",
-password="A@rt!1ntelll")
+password="********")
 
 srv.chdir('MachineLearning/deep-painterly-harmonization/data')
 print(srv.pwd)
