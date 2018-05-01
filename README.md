@@ -1,6 +1,6 @@
 # Final (njw275)
 
-Using deep-painterly-harmonization [Github](https://github.com/luanfujun/deep-painterly-harmonization) page.
+Creating a interactive application to take pictures of people and put them into artwork using [DeepLab: Deep Labelling for Semantic Image Segmentation](https://github.com/tensorflow/models/tree/master/research/deeplab) with [deep-painterly-harmonization](https://github.com/luanfujun/deep-painterly-harmonization). These paintings are currently displayed at the Louvre Abu Dhabi.
 
 
 ### The Subjugated Reader
